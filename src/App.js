@@ -1,5 +1,6 @@
 import MoviesGrid from "./MoviesGrid";
 import styles from "./App.module.css"
+import { Footer } from "./Footer";
 
  function App() {
   return (
@@ -10,6 +11,9 @@ import styles from "./App.module.css"
       <main>
         <MoviesGrid/>
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
