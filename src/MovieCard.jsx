@@ -11,7 +11,7 @@ export function MovieCard ({movie}) {
                 src={imageURL} 
                 alt={movie.title}
             />
-            <h3>{movie.title}</h3>
+            <h3 className={styles.movieTitle}>{movie.title}</h3>
             <p>{movie.overview}</p>
             <span>
                 <b>Language: </b>{movie.original_language}
@@ -22,3 +22,4 @@ export function MovieCard ({movie}) {
         </li>
     );
 }
+
